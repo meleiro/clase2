@@ -19,7 +19,7 @@ public class convertidor {
         }catch (NumberFormatException e) {        // Buscamos excepción que sea una letra y devolvemos texto.
             System.out.println("Introduce el número en letra exclusivamente eso.");
         }finally {                          // No es obligatoria pero se cumple haya o no excepción.
-            System.out.println("Fin del programa o no");
+            System.out.println("Fin del programa o no"); // El pepe
 
         }
 
