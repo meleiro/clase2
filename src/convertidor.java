@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 public class convertidor {
-    public stsatic void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc2 = new Scanner(System.in);
 
         System.out.print("Escribe un número (en texto): ");
@@ -19,7 +19,7 @@ public class convertidor {
         }catch (NumberFormatException e) {        // Buscamos excepción que sea una letra y devolvemos texto.
             System.out.println("Introduce el número en letra exclusivamente eso.");
         }finally {                          // No es obligatoria pero se cumple haya o no excepción.
-            System.out.println("Fin del programa");
+            System.out.println("Fin del programa o no");
 
         }
 
