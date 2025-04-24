@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 public class convertidor {
-    public static void main(String[] args) {
+    public stsatic void main(String[] args) {
         Scanner sc2 = new Scanner(System.in);
 
         System.out.print("Escribe un número (en texto): ");
