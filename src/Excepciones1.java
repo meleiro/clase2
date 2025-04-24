@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Excepciones1 {
 
+    //La única excepción eres tú bb
+
     public static void main(String[] args){
 
         Scanner entrada = new Scanner(System.in);
